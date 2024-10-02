@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+section,.listItems{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}
+
+
+.inputArea{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 80%;
+ 
+   
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    margin-top: 1rem;
+    width: 80%;
+    margin-left: 6%;
+   
+}
+
+p{
+    width: 20%;
+    color: black;
+    word-wrap: break-word;
+   
+}
+b{
+    width: 17%;
+    text-align: center;
+    color: black;
+
+}
+input, p{
+   min-height: 30px;
+   padding:0 10px ;
+   
+}
+input[type=text]{
+    width: 20%;
+}
+.check{
+  width: 10%;
+  color: blue;
+}
+
+button{
+    font-size: 20px;
+    padding: 0 40px;
+    border: none;
+    color: white;
+    background-color: rgb(41, 231, 41);
+}
+.delete{
+    background-color: red;
+}
+.text.bord{
+    
+    background-color: aqua;
+    animation: change 3s  infinite;
+}
+@keyframes change {
+    20%{
+        border: 2px double red;
+    }
+    40%{
+        border: 2px double gainsboro;
+    }
+    60%{
+        border: 2px double red;
+    }
+    80%{
+        border: 2px double gainsboro;
+    }
+    100%{
+        border: 2px double red;
+    }
+   
+}
+
