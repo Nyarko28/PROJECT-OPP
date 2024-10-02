@@ -1,0 +1,161 @@
+.box{
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+   background: linear-gradient(45deg,purple,violet,indigo,rgb(10, 177, 189),blue) ;
+    width:28rem ;
+    place-self: center;
+    place-content: center;
+    z-index: 1;
+    
+    align-self: center;
+    height: 18rem;
+    
+}label{
+    font-weight: 800;
+    color: rgb(0, 4, 6);
+}
+
+
+
+.box :nth-child(2){
+    margin-left:14px ;
+}
+.box :nth-child(3){
+    margin-left:  2.7px;}
+
+.box :nth-child(4){
+ margin-left: -19px;
+}
+/* .box :nth-child(2){
+    margin-left:5px ;
+} */
+input{
+    width: 16rem;
+    height: 2rem;
+    font-size: 1.4rem;
+    
+}
+input[type=submit]{
+    width: 10rem;
+    border-radius: 2rem;
+   font-size: 25px;
+    justify-self: center;
+}
+
+input[type=submit]:hover{
+    transition: all 200ms ease-in;
+    background: rgb(16, 16, 30);
+    color: white;
+
+}
+
+body{
+    display: flex;
+    gap: 2rem;
+}
+.card{
+    width: 35%;
+    height: 42vh;
+    display: flex;
+    justify-content: space-between;
+   box-sizing: border-box;
+    border-radius: 15px;
+    background: url(Flag_of_Ghana.svg.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    display:none;
+}
+
+.box2{
+    width: 66%;
+    background-color: aquamarine;
+    
+    background: url(Coat_of_arms_of_Ghana.svg.png) ;
+     margin-top: 0.8rem;
+ 
+    background-repeat: no-repeat;
+
+}
+.box2 p{width: 100%;
+    height: 1.8rem;
+    font-size: 16px;
+    background-color: bisque;
+    color: black;
+    
+}
+
+.gender_pic{
+    width: 30%;
+    margin: 8px;
+    margin-top: 2rem;
+    height: 70%;
+    background: red;
+    backface-visibility: hidden;
+    
+  
+}
+.not{
+    width: 23%;
+    border-radius: 60% 4% 40% 10%/90% 20% 100%  10%;
+    height: 45%;
+    position: absolute;
+    align-self: center;
+    margin-left: 8rem;
+    text-align: center;
+    margin-top: 1rem;
+    z-index: 2;
+    background-color: aquamarine;
+    overflow: hidden;
+    display: none;
+}
+h2{
+  border: none;
+  border-bottom: 3px solid black;
+  animation:  bonce 1s ease infinite;
+
+}
+.kibab{
+    position: absolute;
+    background-color: aliceblue;
+    width: 2rem;
+    height: 1.6rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: -1rem;
+    margin-left: 3rem;
+    align-items: center;
+}
+h2 .kibab :nth-child(2){
+    height: 20px;
+    width: 2px;
+    position: absolute;
+    rotate:-45deg;
+    margin-left: -2px;
+    background-color: rgb(250, 16, 16);
+}
+h2  .kibab :nth-child(1){
+    height: 20px;
+    width: 3px;
+    position:absolute;
+   rotate:  45deg;
+   
+    background-color: rgb(248, 15, 15);
+}
+@keyframes bonce{
+    0% {
+        color: black;
+    }
+    100%{
+       color: rgb(255, 11, 11);
+       transition: all 30ms ease-in-out;
+       
+    }
+}
+video{
+    border-radius: 90% 40% 80% 90%/20% 0% 10%  70%;
+    display: none;
+}
+
