@@ -1,0 +1,87 @@
+@media screen and (max-width:1000px) {
+    body{
+        margin: ;
+        padding: 0cap;
+    }
+    .checked{
+        margin: 0;
+    }
+    .main-container{
+        margin: auto;
+    }
+    .title{
+        letter-spacing: 2px;
+    }
+    .strip-box{
+        margin-right: 0;
+    }
+   .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(114, 236, 161);
+    height: 83vh;
+    
+   }
+   .name{
+    width: 80%;
+   }
+   .password{
+    width: 80%;
+    margin-top: 2px;
+   }
+.btn2{
+    width: 80%;
+    align-self: center;
+    align-content: center;
+    margin-left: 0.1rem;
+}
+.guest{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    margin: 0%;
+}
+.icon{
+    display: none;
+}
+.login{
+    justify-content: center;
+    width: 100%;
+   
+}
+.remember{
+    display: none;
+}
+.me{
+    display: flex;
+    font-size: 1.6rem;
+}
+.text-down{
+    width: 100%;
+    word-spacing: 1px;
+    font-size: 1.4rem;
+}
+.box-design{
+    width: 50%;
+    margin-top: 0.6rem;
+}
+.blue-text{
+    font-size: 1.8rem;
+    line-height: 16px;
+    background-color: rgb(114, 236, 161);
+    
+    
+}
+.left-side{
+    line-height: 16px;
+}
+.account{
+    margin-top: 3.4rem;
+}
+}
